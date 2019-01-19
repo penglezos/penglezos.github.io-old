@@ -21,7 +21,6 @@
 - Tooltips
 */
 
-
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 container, *[container] {
@@ -246,12 +245,12 @@ button:hover{ opacity: 0.75; }
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer { margin-top: 40px !important; text-align: center; padding: 20px 0; }
-footer * { display: inline-block; }
+.footer { margin-top: 40px !important; text-align: center; padding: 20px 0; }
+.footer * { display: inline-block; }
 @media (max-width: 550px) {
-  footer  { width: 100%; } }
+  .footer  { width: 100%; } }
 @media (max-width: 550px) {
-  footer { text-align: center; } }
+  .footer { text-align: center; } }
 
 /* Positioning
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -261,6 +260,14 @@ footer * { display: inline-block; }
 .justify { text-align: justify; }
 .round { border-radius: 50%; }
 
+/* Cards
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+#card { padding: 1em 2em;
+  margin: 1em;
+  background-color: #616161;
+  border-radius: 6px;
+  box-shadow: 0 0.3em 0.8em rgba(0, 0, 0, 0.25);}
+#card #content { padding: 10px; }
 
 /* Tooltips
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -365,22 +372,6 @@ button:hover, button:focus {
 button:focus {
   outline: 1px solid #FFFFFF;
   outline: 1px solid var(--normal-color); }
-
-#card {
-  padding: 1em 2em;
-  margin: 1em;
-  background-color: #616161;
-  border-radius: 6px;
-  box-shadow: 0 0.3em 0.8em rgba(0, 0, 0, 0.25); }
-
-#card * {
-  color: #FFF !important; }
-
-.footer {
-  margin: 0 calc(3vw + 16px);
-  padding: 0 2em;
-  padding-bottom: 2em;
-  text-align: center; }
 
 img {
   margin-left: 50px;
