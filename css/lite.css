@@ -21,28 +21,6 @@
 - Tooltips
 */
 
-/* Universal
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-html,
-body {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  left: 0;
-  top: 0;
-  font-size: 100%;
-}
-
-* {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  color: #212121;
-  line-height: 1.5;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  word-wrap: break-word; }
 
 /* Grid System
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -283,10 +261,6 @@ footer * { display: inline-block; }
 .justify { text-align: justify; }
 .round { border-radius: 50%; }
 
-/* Cards
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-#card {margin-top:1em; margin-bottom:5em; background-color: lightgray; padding: 50px 0;}
-#card #content { padding: 10px; }
 
 /* Tooltips
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -319,26 +293,97 @@ footer * { display: inline-block; }
 
 /* PENGLEZOS Modifications
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-#card {margin-top:5em; margin-bottom:5em; border-radius: 1%;}
-span { font-size: 28px; color:white;}
+* {
+  font-family: 'Roboto', monospace;
+  animation-name: fadeIn;
+  animation-duration: .3s;
+  animation-timing-function: ease-out;
+  --normal-color: #F5F5F5;
+  --normal-color-text: #BDBDBD;
+  --normal-color-focus: #FFFFFF;
+  --normal-color-focusable: #A8A8A8;
+  --normal-background: #212121;
+  --normal-background-dark: #303030;
+  --normal-background-darker: #424242;
+  --normal-overlay: rgba(0, 0, 0, 0.7);
+  --normal-outline: #424242;
+  --normal-outline-dark: #FFFFFF;
+  --normal-focus: rgba(255, 255, 255, 0.1);
+  --normal-focus-light: rgba(255, 255, 255, 0.03);
+  --accent-color: #00887C;
+  --accent-color-text: #30A093;
+  --accent-background: #00887C;
+  --accent-outline: #30A093;
+  --accent-outline-fade: rgba(33, 78, 72, 0.3);
+  --accent-outline-fade2: rgba(33, 78, 72, 0.5);
+  --accent-inverse: #000000;
+  --image-brightness-focus: 2; }
+
+  @keyframes fadeIn {
+    from {
+      opacity: 0; }
+    to {
+      opacity: 1; } }
+  .--noanim {
+    animation: none; }
+  
+  .--noanim > * {
+    animation: none; }
+  
+  body {
+    margin: 0;
+    background-color: #FFFFFF;
+    background-color: var(--normal-background);
+    color: #424242;
+    color: var(--normal-color);
+    word-wrap: break-word;
+    word-break: break-word;
+    transition: background-color .25s;
+    -moz-transition: background-color .25s;
+    -webkit-transition: background-color .25s; }
+
+h1, h2, h3, h4, h5, h1 *, h2 *, h3 *, h4 *, h5 * {
+font-family: 'Roboto Mono', monospace; }  
+
+p {
+  color: #616161;
+  color: var(--normal-color-text); }
+  
+button {
+  background-color: transparent;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8em 1.2em;
+  transition: background-color .25s; }
+
+button:hover, button:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--normal-focus); }
+
+button:focus {
+  outline: 1px solid #FFFFFF;
+  outline: 1px solid var(--normal-color); }
+
+#card {
+  padding: 1em 2em;
+  margin: 1em;
+  background-color: #616161;
+  border-radius: 6px;
+  box-shadow: 0 0.3em 0.8em rgba(0, 0, 0, 0.25); }
+
+#card * {
+  color: #FFF !important; }
+
+.footer {
+  margin: 0 calc(3vw + 16px);
+  padding: 0 2em;
+  padding-bottom: 2em;
+  text-align: center; }
 
 img {
   margin-left: 50px;
   margin-right: 50px;
   margin-bottom: -10px;
-}
-
-body {
-  background-color: #243447;
-}
-
-.button {
-  background-color: #243447;
-}
-
-a { color: #151E29; }
-a:hover { opacity: 0.75; }
-
-p {
-  letter-spacing: 0.5px;
 }
