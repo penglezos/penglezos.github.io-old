@@ -264,7 +264,7 @@ button:hover{ opacity: 0.75; }
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 #card { padding: 1em 2em;
   margin: 1em;
-  background-color: #616161;
+  background-color: #212121;
   border-radius: 6px;
   box-shadow: 0 0.3em 0.8em rgba(0, 0, 0, 0.25);}
 #card #content { padding: 10px; }
@@ -309,7 +309,7 @@ button:hover{ opacity: 0.75; }
   --normal-color-text: #BDBDBD;
   --normal-color-focus: #FFFFFF;
   --normal-color-focusable: #A8A8A8;
-  --normal-background: #212121;
+  --normal-background: black;
   --normal-background-dark: #303030;
   --normal-background-darker: #424242;
   --normal-overlay: rgba(0, 0, 0, 0.7);
