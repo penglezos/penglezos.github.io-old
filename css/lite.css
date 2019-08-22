@@ -245,7 +245,14 @@ button:hover{ opacity: 0.75; }
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.footer { margin-top: 40px !important; text-align: center; padding: 20px 0; }
+.footer {  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
 .footer * { display: inline-block; }
 @media (max-width: 550px) {
   .footer  { width: 100%; } }
