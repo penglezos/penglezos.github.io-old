@@ -228,16 +228,26 @@ textarea {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button {
   background-color: grey;
-  border: none;
   color: white;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
   padding: 8px 20px;
   text-align: center;
-  font-size: 15px;
+  font-size: 17px;
   cursor: pointer;
   text-decoration: none;
+  transition: background-color .25s; 
 }
 
-button:hover{ opacity: 0.75; }
+button:hover, button:focus {
+  background-color: rgba(255, 255, 255, 0.1);
+  background-color: var(--normal-focus); }
+
+button:focus {
+  outline: 1px solid #FFFFFF;
+  outline: 1px solid var(--normal-color); }
+ 
 .green {background-color:#4CAF50}
 .blue {background-color: #008CBA;}
 .red {background-color: #f44336;}
@@ -362,23 +372,6 @@ font-family: 'Roboto Mono', monospace; }
 p {
   color: #616161;
   color: var(--normal-color-text); }
-  
-button {
-  background-color: transparent;
-  font-weight: bold;
-  text-transform: uppercase;
-  border: none;
-  border-radius: 4px;
-  padding: 0.8em 1.2em;
-  transition: background-color .25s; }
-
-button:hover, button:focus {
-  background-color: rgba(255, 255, 255, 0.1);
-  background-color: var(--normal-focus); }
-
-button:focus {
-  outline: 1px solid #FFFFFF;
-  outline: 1px solid var(--normal-color); }
 
 img {
   margin-left: 50px;
