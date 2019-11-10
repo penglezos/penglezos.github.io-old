@@ -1,7 +1,7 @@
 body {
     font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     padding-top: 54px;
-    color: #868e96;
+    color: white;
     background-color: #292A2D;
     animation-name: fadeIn;
     animation-duration: .3s;
@@ -34,7 +34,7 @@ body {
     font-family: 'Saira Extra Condensed', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
     font-weight: 700;
     text-transform: uppercase;
-    color: #343a40;
+    color: white;
   }
   
   h1 {
