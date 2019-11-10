@@ -153,3 +153,6 @@ body {
   a:hover, a:focus, a:active {
     color: #167c80;
   }
+  #sticky-footer {
+    flex-shrink: none;
+  }
