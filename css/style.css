@@ -156,3 +156,32 @@ body {
   #sticky-footer {
     flex-shrink: none;
   }
+
+  .social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
+  }
+  
+  .social-icons a:last-child {
+    margin-right: 0;
+  }
+  
+  .social-icons a:hover {
+    background-color: #167c80;
+  }
+  
+  .dev-icons {
+    font-size: 3rem;
+  }
+  
+  .dev-icons .list-inline-item i:hover {
+    color: #167c80;
+  }
