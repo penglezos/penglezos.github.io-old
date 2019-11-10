@@ -189,3 +189,7 @@ body {
   .dev-icons .list-inline-item i:hover {
     color: #167c80;
   }
+
+  .btn.btn-info {
+    background-color: #167c80 !important;
+  }
