@@ -1,6 +1,15 @@
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
 body {
     background-color: #292A2D;
     font-family: 'Roboto', sans-serif;
+    position: relative;
+    margin: 0;
+    padding-bottom: 6rem;
+    min-height: 100%;
 }
 
 h1,
@@ -46,8 +55,9 @@ h6 { font-size: 0.875rem;}
 
 .footer {
     position: absolute;
+    right: 0;
     bottom: 0;
-    width: 100%;
-    height: 60px;
-    line-height: 60px;
-}
+    left: 0;
+    padding: 0rem;
+    text-align: center;
+  }
