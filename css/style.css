@@ -12,6 +12,7 @@ body {
     min-height: 100%;
 }
 
+
 h1,
 h2,
 h3,
@@ -33,6 +34,14 @@ h5 { font-size: 1rem;}
 h6 { font-size: 0.875rem;}
 
 a { text-transform: uppercase; }
+
+.navbar-brand {
+    color: #8AB4F8!important;
+}
+
+.nav-link{
+    color: #8AB4F8!important;
+}
 
 .social-icons a {
     display: inline-block;
