@@ -12,7 +12,6 @@ body {
     min-height: 100%;
 }
 
-
 h1,
 h2,
 h3,
@@ -51,6 +50,11 @@ a { text-transform: uppercase;
     color: #8AB4F8!important;
 }
 
+.navbar-nav > li{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+ 
 .social-icons a {
     display: inline-block;
     height: 3.5rem;
