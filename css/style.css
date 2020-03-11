@@ -36,7 +36,7 @@ a { text-transform: uppercase;
     color: #8AB4F8;
 }
 
-.white { color: white; }
+p, ul { color: white; }
 
 .footer {
     position: absolute;
