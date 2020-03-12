@@ -32,11 +32,17 @@ h4 { font-size: 1.125rem;}
 h5 { font-size: 1rem;}
 h6 { font-size: 0.875rem;}
 
-a { color: #8AB4F8; }
+a {
+    color: #8AB4F8;
+}
 
-.logo { color: #8AB4F8;}
+.logo { 
+    color: #8AB4F8;
+}
 
-p, ul { color: white; }
+p, ul {
+    color: white; 
+}
 
 .footer {
     position: absolute;
