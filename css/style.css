@@ -99,12 +99,13 @@ p {
 .icons a {
     display: inline-block;
     height: 3.5rem;
-    width: 2.5rem;
+    width: 3rem;
     color: #fff !important;
     text-align: center;
     font-size: 1.5rem;
     line-height: 3.5rem;
     margin-right: 0.5rem;
+    border-radius: 10%;
 }
 
 .icons a:last-child {
