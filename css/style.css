@@ -53,6 +53,10 @@ p {
     -ms-transition: opacity 1s ease, -ms-transform 1s ease;
     transition: opacity 1s ease, transform 1s ease;
     padding: 6em 3em 6em 3em ;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
     background: #202020;
     border-radius: 8px;
     cursor: default;
