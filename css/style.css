@@ -125,10 +125,12 @@ p {
     background-color: #8AB4F8;
     opacity: 0.9;
     transition: 0.3s;
+    color: #2d2d2d;
 }
 
 .btn-en:hover {
-    opacity: 2;}
+    opacity: 2;
+}
 
 .footer {
     position: absolute;
