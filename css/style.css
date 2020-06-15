@@ -17,7 +17,7 @@ h2,
 h3,
 h4,
 h5,
-h6{
+h6 {
     margin-top: 1rem;
     margin-bottom: 1rem;
     font-weight: 200;
@@ -68,7 +68,6 @@ p {
     box-shadow: 0px 5px 5px #1A1A1A;
 }
     
-    
 #wrapper {
     display: -moz-flex;
     display: -webkit-flex;
@@ -116,7 +115,7 @@ p {
     background-color: #8AB4F8;
 }
 
-.btn-en{
+.btn-en {
     font-weight: bold;
 	font-size: 12px;
 	letter-spacing: 2px;
