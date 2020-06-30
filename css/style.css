@@ -59,22 +59,6 @@ p {
     background-color: #8AB4F8;
 }
 
-.btn-en {
-    font-weight: bold;
-	font-size: 12px;
-	letter-spacing: 2px;
-	padding: 13px 17px;
-    margin: 5px 5px;
-    background-color: #8AB4F8;
-    opacity: 0.9;
-    transition: 0.3s;
-    color: #2d2d2d;
-}
-
-.btn-en:hover {
-    opacity: 2;
-}
-
 .footer {
     position: absolute;
     right: 0;
