@@ -58,13 +58,3 @@ p {
 .icons a:hover {
     background-color: #8AB4F8;
 }
-
-.footer {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 0rem;
-    font-size: 14px;
-    text-align: center;
-}
